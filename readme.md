@@ -19,10 +19,6 @@
 
 Clone the repository
 
-```bash
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
-```
-
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
@@ -54,8 +50,6 @@ open up you local host and port
 
 - [Documentation](https://mlflow.org/docs/latest/index.html)
 
-- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
-
 ##### cmd
 
 - mlflow ui
@@ -64,20 +58,20 @@ open up you local host and port
 
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/dwyhungbrahma686/kidney_disease_classification.mlflow\
+MLFLOW_TRACKING_USERNAME=dwyhungbrahma686 \
+MLFLOW_TRACKING_PASSWORD=96afe9c4c195ccca4a4c76f8760aba8c30fe9698 \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/dwyhungbrahma686/kidney_disease_classification.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy
+export MLFLOW_TRACKING_USERNAME=dwyhungbrahma686
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=96afe9c4c195ccca4a4c76f8760aba8c30fe9698
 
 ```
 
