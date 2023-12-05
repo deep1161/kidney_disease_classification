@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/2cd9e575d2d14373a09032ef1b803738/artifacts
+end_time: 1701763584682
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2cd9e575d2d14373a09032ef1b803738
+run_name: bemused-fawn-206
+run_uuid: 2cd9e575d2d14373a09032ef1b803738
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701763573422
+status: 4
+tags: []
+user_id: DEEPJYOTI

@@ -51,6 +51,11 @@ class Evaluation:
 
     def log_into_mlflow(self):
         mlflow.set_registry_uri(self.config.mlflow_uri)
+
+        # For remote server only(DAGShub)
+        remote_server_uri = "https://dagshub.com/dwyhungbrahma686/kidney_disease_classification.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
+
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         with mlflow.start_run():

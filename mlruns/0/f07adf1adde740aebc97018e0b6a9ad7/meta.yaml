@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f07adf1adde740aebc97018e0b6a9ad7/artifacts
+end_time: 1701761008690
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f07adf1adde740aebc97018e0b6a9ad7
+run_name: inquisitive-bird-257
+run_uuid: f07adf1adde740aebc97018e0b6a9ad7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701760996527
+status: 4
+tags: []
+user_id: DEEPJYOTI
