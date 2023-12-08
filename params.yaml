@@ -5,4 +5,4 @@ INCLUDE_TOP: False #Since i am not taking dense layer
 EPOCHS: 3
 CLASSES: 2
 WEIGHTS: imagenet #Downloaded model is trained on imagenet dataset
-LEARNING_RATE: 0.01
+LEARNING_RATE: 0.02
